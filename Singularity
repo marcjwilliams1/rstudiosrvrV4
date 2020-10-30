@@ -7,3 +7,4 @@ From: rocker/r-ver:devel
   export PATH=/usr/lib/rstudio-server/bin:$PATH
   /rocker_scripts/install_rstudio.sh
   /rocker_scripts/install_pandoc.sh
+  /rocker_scripts/install_tidyverse.sh
