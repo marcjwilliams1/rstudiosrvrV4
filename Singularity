@@ -27,4 +27,4 @@ From: rocker/r-ver:4.0.3
       unixodbc-dev && \
     rm -rf /var/lib/apt/lists/*
 
-  #/rocker_scripts/install_tidyverse.sh
+  /rocker_scripts/install_tidyverse.sh
