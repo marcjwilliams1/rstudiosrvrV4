@@ -8,6 +8,6 @@ From: rocker/r-ver:4.0.3
   /rocker_scripts/install_rstudio.sh
   /rocker_scripts/install_pandoc.sh
 
-  #apt-get update && apt-get install -y --no-install-recommends apt-utils
+  apt-get update && apt-get install -y --no-install-recommends apt-utils
 
-  #/rocker_scripts/install_tidyverse.sh
+  /rocker_scripts/install_tidyverse.sh
