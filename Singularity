@@ -19,6 +19,7 @@ From: rocker/r-ver:4.0.3
       libxml2-dev \
       libcairo2-dev \
       libgit2-dev \
+      libglpk-dev \
       default-libmysqlclient-dev \
       libpq-dev \
       libsasl2-dev \
@@ -26,5 +27,3 @@ From: rocker/r-ver:4.0.3
       libssh2-1-dev \
       unixodbc-dev && \
     rm -rf /var/lib/apt/lists/*
-
-  /rocker_scripts/install_tidyverse.sh
