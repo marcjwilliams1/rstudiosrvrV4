@@ -1,6 +1,9 @@
 Bootstrap: docker
 From: rocker/r-ver:4.0.3
 
+%files
+  /rocker_scripts
+
 %post
   export S6_VERSION=v1.21.7.0
   export RSTUDIO_VERSION=1.2.5042
