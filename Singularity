@@ -26,5 +26,10 @@ From: rocker/r-ver:4.0.3
       libsasl2-dev \
       libsqlite3-dev \
       libssh2-1-dev \
+      libgtk2.0-dev \
+      xvfb \
+      xauth \
+      libxt-dev \
+      xfonts-base \
       unixodbc-dev && \
     rm -rf /var/lib/apt/lists/*
