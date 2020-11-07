@@ -20,6 +20,7 @@ From: rocker/r-ver:4.0.3
       libcairo2-dev \
       libgit2-dev \
       libglpk-dev \
+      libxtst6 \
       default-libmysqlclient-dev \
       libpq-dev \
       libsasl2-dev \
