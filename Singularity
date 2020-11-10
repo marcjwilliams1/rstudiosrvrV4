@@ -103,6 +103,6 @@ From: rocker/r-ver:4.0.3
 	  xfonts-100dpi \
 	  xfonts-75dpi \
 	  biber \
-	  && apt-get clean
-      unixodbc-dev && \
+	  unixodbc-dev \
+	  && apt-get clean \
     rm -rf /var/lib/apt/lists/*
