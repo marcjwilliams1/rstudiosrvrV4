@@ -104,5 +104,5 @@ From: rocker/r-ver:4.0.3
 	  xfonts-75dpi \
 	  biber \
 	  unixodbc-dev \
-	  && apt-get clean \
+	  && apt-get clean && \
     rm -rf /var/lib/apt/lists/*
