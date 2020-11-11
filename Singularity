@@ -37,8 +37,9 @@ From: rocker/r-ver:4.0.3
       xauth \
       libxt-dev \
       xfonts-base \
-      libpng-dev \
+      libpng-dev
 	  ## other libraries listed in bioconductor https://hub.docker.com/r/bioconductor/bioconductor_full/dockerfile
+apt-get update -qq && apt-get -y --no-install-recommends install \
 	  libnetcdf-dev \
 	  libhdf5-serial-dev \
 	  libfftw3-dev \
