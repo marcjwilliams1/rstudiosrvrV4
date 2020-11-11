@@ -48,8 +48,7 @@ apt-get update -qq && apt-get -y --no-install-recommends install \
 	  libexempi8 \
 	  libxt-dev \
 	  libgdal-dev \
-	  libjpeg62-turbo-dev \
-	  libcairo2-dev \
+	  libjpeg8-dev \
 	  libtiff5-dev \
 	  libreadline-dev \
 	  libgsl0-dev \
