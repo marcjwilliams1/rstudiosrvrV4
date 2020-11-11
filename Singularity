@@ -77,14 +77,12 @@ apt-get update -qq && apt-get -y --no-install-recommends install \
 	  libprotobuf-dev \
 	  libpq-dev \
 	  libperl-dev \
-	  ## software - perl extentions and modules
 	  libarchive-extract-perl \
 	  libfile-copy-recursive-perl \
 	  libcgi-pm-perl \
 	  libdbi-perl \
 	  libdbd-mysql-perl \
 	  libxml-simple-perl \
-	  ## Databases and other software
 	  sqlite \
 	  openmpi-bin \
 	  mpi-default-bin \
@@ -99,7 +97,6 @@ apt-get update -qq && apt-get -y --no-install-recommends install \
 	  graphviz \
 	  protobuf-compiler \
 	  jags \
-	  ## Additional resources
 	  xfonts-100dpi \
 	  xfonts-75dpi \
 	  biber \
